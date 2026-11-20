@@ -12,7 +12,7 @@ The issue is caused by insecure DLL loading combined with weak directory permiss
 
 ## Custom PoC
 
-[View Custom PoC →](custom-poc.md)
+[View Custom PoC →](poc.md)
 
 ## References
 
