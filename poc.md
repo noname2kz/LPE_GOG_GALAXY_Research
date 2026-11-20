@@ -12,11 +12,11 @@ In my customized version, I adapted the original PoC to demonstrate the DLL Hija
 
 The custom implementation focuses on placing the test DLL in a writable directory and monitoring its loading behavior when `GalaxyCommunication.exe` runs.
 
-![Figure 1. DLL placement and directory permissions.](assets/dll-permissions.png)
+![Figure 1. DLL placement and directory permissions.](writedll.png)
 
 After successful DLL loading, the custom implementation establishes a connection to the C2 server, demonstrating that code execution is achieved within the `NT AUTHORITY\SYSTEM` security context.
 
-![Figure 2. Successful SYSTEM privilege verification.](assets/system.png)
+![Figure 2. Successful SYSTEM privilege verification.](gainsystem.png)
 
 ## Changes
 
