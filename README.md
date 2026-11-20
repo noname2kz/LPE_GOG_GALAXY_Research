@@ -8,7 +8,7 @@ The issue is caused by insecure DLL loading combined with weak directory permiss
 
 <!-- Add your PoC demonstration GIF or screenshot here -->
 
-![PoC Demo](images/demo.gif)
+![PoC Demo](https://github.com/noname2kz/LPE_GOG_GALAXY_Research/blob/main/GOG.gif)
 
 ## Custom PoC
 
